@@ -1,4 +1,4 @@
-%Liao Wu and Hongliang Ren, ¡°Finding the Kinematic Base Frame of a Robot by Hand-Eye Calibration Using 3D Position Data,¡± IEEE Transactions on Automation Science and Engineering, Vol. 14, No. 1, pp. 314-324, Jan. 2017.
+%Liao Wu and Hongliang Ren, Finding the Kinematic Base Frame of a Robot by Hand-Eye Calibration Using 3D Position Data, IEEE Transactions on Automation Science and Engineering, Vol. 14, No. 1, pp. 314-324, Jan. 2017.
 %input A (n*4)*4, B(n*4) *4, X0,Y0 solved by closed form solution
 %output X 4*4 Y 4*4
 function [X,Y]=solve_axyb_guassnewton(X0,Y0,A,B)
